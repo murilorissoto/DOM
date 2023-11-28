@@ -1,0 +1,31 @@
+body { font: 12pt Arial;}
+button { 
+    font-size: 12pt; 
+    padding: 30px;
+    border-radius: 66%;
+    background-color: cadetblue;
+    color: aliceblue;
+}
+
+button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: minhaFonte ;
+    src:url(glossy_sheen/Glossy\ Sheen\ Shine\ DEMO.ttf);
+   }
+
+H1{
+    font-family:minhaFonte;
+    text-align: center;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #333;
+    color: cadetblue;
+    font-size: 80px;
+}
+
+p{
+    font-size:larger;
+}
